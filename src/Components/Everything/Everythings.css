@@ -1,0 +1,55 @@
+h1{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
+}
+
+.product-container{
+    padding: 20px 35px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    width: 23%;
+    height: 500px;
+}
+
+.product{
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product img{
+    width: 100%;
+    height: 350px;
+}
+
+.product h2{
+    font-size: 16px;
+    margin: 15px 0px ;
+    height: 60px;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+.product span{
+    font-size: 14px;
+    color: grey;
+}
+
